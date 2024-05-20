@@ -3,6 +3,7 @@ import Title from "./Title";
 import RPSDemo from "../public/img/projects/RPS-Demo.jpg";
 import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
 import MazeDemo from "../public/img/projects/Maze-Demo.jpg";
+import TowerdefenceDemo from "../public/img/projects/TD-Demo.png";
 import FighterDemo from "../public/img/projects/Fighter-Demo.jpg";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
@@ -27,6 +28,12 @@ const Projects = () => {
           img={FighterDemo.src}
           title="Fighter-Demo"
           link="https://fighterdemoo.netlify.app"
+        />
+
+        <ProjectCard
+          img={TowerdefenceDemo.src}
+          title="TowerDefence-Demo"
+          link="https://towerdefence-demo.netlify.app"
         />
         
         <ProjectCard
